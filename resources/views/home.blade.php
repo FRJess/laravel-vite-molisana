@@ -3,5 +3,5 @@
 @section('content')
 
     <main>
-        Main
+        Home
     </main>
