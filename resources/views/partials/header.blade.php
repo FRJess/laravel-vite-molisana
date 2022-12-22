@@ -6,10 +6,14 @@
 
     <nav>
         <ul>
-            <li><a href="">home</a></li>
-            <li><a href="">prodotti</a></li>
-            <li><a href="">post</a></li>
-            <li><a href="">contatti</a></li>
+            <li><a class="{{ Route::currentRouteName() === 'home' ? 'active' : '' }}" href="{{ route('home') }}">home</a>
+            </li>
+            <li><a class="{{ Route::currentRouteName() === 'products' ? 'active' : '' }}"
+                    href="{{ route('products') }}">prodotti</a></li>
+            <li><a class="{{ Route::currentRouteName() === 'post' ? 'active' : '' }}" href="{{ route('post') }}">post</a>
+            </li>
+            <li><a class="{{ Route::currentRouteName() === 'contacts' ? 'active' : '' }}"
+                    href="{{ route('contacts') }}">contatti</a></li>
         </ul>
     </nav>
 </header>
