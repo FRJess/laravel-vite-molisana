@@ -25,6 +25,6 @@ Route::get('/contatti', function () {
     return view('contacts');
 })->name('contacts');
 
-Route::get('/posts', function () {
+Route::get('/post', function () {
     return view('posts');
 })->name('posts');

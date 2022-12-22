@@ -2,6 +2,10 @@
 
 @section('content')
     <main>
-        Home
+        contatti
     </main>
+@endsection
+
+@section('title')
+    Contatti
 @endsection

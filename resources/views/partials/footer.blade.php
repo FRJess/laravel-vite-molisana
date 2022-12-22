@@ -8,11 +8,13 @@
             <h4>Menu</h4>
             <nav>
                 <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <li><a href="#">link</a></li>
+                    <li><a href="#">link</a></li>
+                    <li><a href="#">link</a></li>
+                    <li><a href="#">link</a></li>
+                    <li><a href="#">link</a></li>
+                    <li><a href="#">link</a></li>
+                    <li><a href="#">link</a></li>
                 </ul>
             </nav>
         </div>
@@ -42,6 +44,6 @@
         </div>
     </div>
 
-    <img :src="{{ Vite::asset('resources/img/footer.jpg') }}" alt="Montagne">
+    <img src="{{ Vite::asset('resources/img/footer.jpg') }}" alt="Montagne">
 
 </footer>

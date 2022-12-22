@@ -1,11 +1,5 @@
-// @import '~bootstrap/scss/bootstrap';
-
-// body {
-//     background-color: peachpuff;
-// }
-
-@use './partials/variables' as *;
-@use './partials/_mixin' as *;
+@use 'partials/variables' as *;
+@use 'partials/mixin' as *;
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {

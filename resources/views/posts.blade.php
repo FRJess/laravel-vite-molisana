@@ -2,6 +2,10 @@
 
 @section('content')
     <main>
-        Home
+        post
     </main>
+@endsection
+
+@section('title')
+    Post
 @endsection
