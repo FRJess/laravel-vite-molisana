@@ -10,7 +10,8 @@
             </li>
             <li><a class="{{ Route::currentRouteName() === 'products' ? 'active' : '' }}"
                     href="{{ route('products') }}">prodotti</a></li>
-            <li><a class="{{ Route::currentRouteName() === 'post' ? 'active' : '' }}" href="{{ route('post') }}">post</a>
+            <li><a class="{{ Route::currentRouteName() === 'posts' ? 'active' : '' }}"
+                    href="{{ route('posts') }}">post</a>
             </li>
             <li><a class="{{ Route::currentRouteName() === 'contacts' ? 'active' : '' }}"
                     href="{{ route('contacts') }}">contatti</a></li>
