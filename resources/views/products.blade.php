@@ -5,11 +5,13 @@
     <div class="container cards">
 
       @foreach ($products as $product)
-        <div class="card">
+        <!-- per le rotte diamiche, al metodo route passare come secondo paramtro un array associativo con le chiavi col nome dei parapretri dinamici inseriti nella rotta -->
+        <a href="{{ route('product_detail', ['id' => $product['id']]) }}" class="card">
           <img src="{{ $product['src'] }}" alt="{{ $product['titolo'] }}">
           <h4>{{ $product['titolo'] }}</h4>
-        </div>
+        </a>
       @endforeach
+
 
     </div>
   </main>
