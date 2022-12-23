@@ -18,7 +18,8 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/prodotti', function () {
-    return view('products');
+    $products = config('db.products');
+    return view('products', compact('products'));
 })->name('products');
 
 Route::get('/contatti', function () {
